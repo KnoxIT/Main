@@ -1,26 +1,14 @@
-#container {
-	position: relative;
-}
-#image {
-	left: 0;
-	top: 0;
-	width: 100%;
-}
-#text {
-	z-index: 100;
-	position: absolute;
-	color: white;
-	font-size: 20px;
-	font-weight: bold;
-	top: 20px;
-	right: 100px;
-	left: 20px;
-}
+
 #footer{
 	background-color: black;
 	text-align: center;
 	color: white;
+	font-size: 14px;
+}
+#text{
+	margin: 5px;	
 }
 #text2{
-	margin: 5px;
+	font-size: 10px;
+	font-family:fantasy;
 }
