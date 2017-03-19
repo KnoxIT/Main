@@ -2,7 +2,8 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Referenser</title>
+		<title>Knox IT - Referenser</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../style/indexcss.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -11,21 +12,28 @@
 	</head>
 	<body>
 		<br>
+
 		<header class="container">
 			<div class="row">
-				<div class="col-sm-3">
-					<img src="../resource/logo.jpg" class="rounded" alt="Responsive image" style= width:100px>
+				<div class="col-sm-2">
+					<a href="../../index.html"><img src="../resource/logo.jpg" class="rounded" alt="Responsive image" style= width:100px></a>
 				</div>
-				<div class="col-sm-9">
-					<ul class="nav nav-tabs">
+				<div class="col-sm-1">
+					<p></p>
+				</div>
+				<div class="col-sm-9" id="header">
+					<ul class="nav nav-pills flex-column flex-sm-row justify-content-end">
 						<li class="nav-item">
-							<a class="nav-link active" href="../../index.html">Hem</a>
+							<a class="nav-link" href="../../index.html"><strong>Hem</strong></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="varatjanster.html">Våra tjänster</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="omoss.html">Om oss</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="referenser.html">Referenser</a>
+							<a class="nav-link active" href="referenser.html">Referenser</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="kontaktaoss.html">Kontakta oss</a>
@@ -34,49 +42,59 @@
 				</div>
 			</div>
 		</header>
+		<hr>
 		<br>
 		<main class="container">
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-12" style="text-align: center">
 					<p id="text">Vi har haft många lyckades sammarbeten med kända bolag runt om i världen. Här kommer väl utvalda kunder som vi har skapat en god relation med.</p>
 				</div>
 			</div>
 			<br>
-			<div class="row" >
-				<div class="col-sm-3">
-					<div class="card" style="width: 130px">
-						<img  class="card-img-top" src="../resource/jensen.jpg" alt="Card image cap">
-						<div class="card-block" id="text2"> "Knox IT utvecklade vår plattform för studenter till det bättre!  Tack!" - Andra Tuerac </div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="card" style="width: 130px">
-						<img class="card-img-top" src="../resource/hm.jpg" alt="Card image cap">
-						<div class="card-block" id="text2">"Vi hade ett lyckat och gott samarbete med Knox IT!" - Stefan Persson</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="card" style="width: 130px">
-						<img class="card-img-top" src="../resource/ikea.jpg" alt="Card image cap">
-						<div class="card-block" id="text2">"Knox IT utveckling av vår hemsida gjorde att vår omsättning ökade med 70 %!" -Ingvar Kamprad</div>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="card" style="width: 130px">
-						<img class="card-img-top" src="../resource/Tesla.jpg" alt="Card image cap">
-						<div class="card-block" id="text2">"Knox IT made our website so much better!" - Elon Musk</div>
-					</div>
-				</div>
+			<div class="row" style="text-align: center">
+
+				<figure class="col-sm-3">
+					<img width="130px" height="130px" src="../resource/jensen.jpg">
+					<figcaption><a href="https://www.jenseneducation.se">Jensen Education</a></figcaption>
+					<small><cite>"Knox IT utvecklade vår plattform för studenter till det bättre!  Tack!"</cite> <div>- Andra Tuerac</div></small>
+				</figure>
+
+
+				<figure class="col-sm-3">
+					<img width="130px" height="130px" src="../resource/hm.jpg">
+					<figcaption><a href="http://www.hm.com/se">HM</a></figcaption>
+					<small><cite>"Vi hade ett lyckat och gott samarbete med Knox IT!"</cite> <div>- Stefan Persson</div></small>
+				</figure>
+
+				<figure class="col-sm-3">
+					<img width="130px" height="130px" src="../resource/ikea.jpg">
+					<figcaption><a href="http://www.ikea.com/se/sv/">Ikea</a></figcaption>
+					<small><cite>"Knox IT engagemang gjorde att vår e-handel sköt i höjden!"</cite> <div>-Ingvar Kamprad</div></small>
+				</figure>
+				
+				<figure class="col-sm-3">
+					<img width="130px" height="130px" src="../resource/tesla.jpg">
+					<figcaption><a href="https://www.tesla.com">Tesla</a></figcaption>
+					<small><cite>"Knox IT made our website so much better!"</cite> <div>- Elon Musk</div></small>
+				</figure>
+
+
+
 			</div>
-		</main>
-		<br>
-		<footer class="container" class="card-footer " id="footer"> 
-			<div class="row">
-				<div class="col-sm-6">Webbyrå Knox IT<br>info@knoxit.se<br>08-120 00 000
-				</div>
-				<div class="col-sm-6">Adress: Sveavägen 42<br>11433 Stockholm
-				</div>
+			
+</main>
+<br><br><br><br>
+<footer> 
+	<div class="card-footer " id="footer"> 
+		<div class="row">
+			<div class="col-sm-5">Webbyrå Knox IT<br>info@knoxit.se<br>08-120 00 000
 			</div>
-		</footer>
-	</body>
+			<div class="col-sm-2"><p></p>
+			</div>
+			<div class="col-sm-5">Adress: Sveavägen 42<br>11433 Stockholm
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
 </html>
