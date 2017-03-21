@@ -2,13 +2,136 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Untitled</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<title>Knox IT - Kontakta Oss</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../style/indexcss.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 	</head>
 	<body>
+		<br>
+		<header class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<a href="../../index.html"><img src="../resource/logo.jpg" class="rounded" alt="Responsive image" style= width:100px></a>
+				</div>
+				<div class="col-sm-1">
+					<p></p>
+				</div>
+				<div class="col-sm-9" id="header">
+					<ul class="nav nav-pills flex-column flex-sm-row justify-content-end">
+						<li class="nav-item">
+							<a class="nav-link" href="../../index.html"><strong>Hem</strong></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="varatjanster.html">Våra tjänster</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="omoss.html">Om oss</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="referenser.html">Referenser</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link active" href="kontaktaoss.html">Kontakta oss</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<hr>
+		<main class="container">
+			<article>
+				<div class="card-block">
+					<section>
+						<h6>Ta första steget.</h6>
+						<p>Kontakta oss för en förutsättningslös diskussion om hur vi kan hjälpa dig med din nya hemsida eller webbapplikation, eller om du bara vill ha en första prisindikation för att se om ditt projekt ryms inom din budget.</p>
+					</section>
+				</div>
+				<div class="card-deck">
+					<div class="card col-12 col-sm-12 col-md-6 col-xl-4">
+						<div class="card-block">
+							<h6 class="card-title">Fyll i formuläret nedan så kontaktar vi dig så fort vi kan.</h6>
+							<form>
+								<div class="form-group">
+									<label>Namn: <span class="text-danger">*</span></label>
+									<input type="text" class="form-control" id="formGroupExampleInput" placeholder="John Doe">
+								</div>
+								<div class="form-group">
+									<label>E-Mail: <span class="text-danger">*</span></label>
+									<input type="text" class="form-control" id="formGroupExampleInput2" placeholder="företag@företagsdomän.se">
+								</div>
+								<div class="form-group">
+									<label>Företagsnamn:</label>
+									<input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Mitt Företag AB">
+								</div>
+								<div class="form-group">
+									<label>Telefon:</label>
+									<input type="text" class="form-control" id="formGroupExampleInput4" placeholder="070-123 456 789">
+								</div>
+								<div class="form-group">
+									<label>Meddelande:</label>
+									<textarea class="form-control" id="formMsg" placeholder="..."></textarea>
+								</div>
+								<div>
+									<small class="text-danger">* Obligatoriskt för att underlätta och snabba på processen mellan Er som kund och Oss.</small>
+								</div>
+								<button type="button" class="btn btn-primary btn-sm float-right" id="formSubmit">Skicka</button>
+							</form>
+						</div>
+					</div>
+					<div class="col-12 col-sm-12 col-md-6 col-xl-8">
+						<div class="card-block">
+							<h4 class="card-title">Våra kontaktuppgifter:</h4>
+							<label class="card-text">Email: info@knoxit.se<br>
+								Telefonnummer: 08- 120 00 000<br>
+								Adress: Sveavägen 42,
+								11433 Stockholm,
+								Sverige
+							</label>
+						</div>
+						<div class="card-block">
+							<h4 class="card-title">Hitta hit:</h4>
+							<div class="iframe-container">
+								<div id="map" style="width:100%;height:400px;background:lightgrey"></div>
+								<script>
+									function myMap() {
+										var myLatlng = new google.maps.LatLng(59.336760, 18.062748);
+										var mapOptions = {
+											zoom: 16,
+											center: myLatlng
+										}
+										var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
+										var marker = new google.maps.Marker({
+											position: myLatlng,
+											title:"Hello World!"
+										});
+										// To add the marker to the map, call setMap();
+										marker.setMap(map);
+									}
+								</script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+			<br>
+		</main>
+		<footer> 
+			<div class="card-footer " id="footer"> 
+				<div class="row">
+					<div class="col-sm-5">Webbyrå Knox IT<br>info@knoxit.se<br>08-120 00 000
+					</div>
+					<div class="col-sm-2"><p></p>
+					</div>
+					<div class="col-sm-5">Adress: Sveavägen 42<br>11433 Stockholm
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsCPWuzzlwQTrkbM-NaDirKin5GiEfvNM&callback=myMap"></script>
 	</body>
 </html>

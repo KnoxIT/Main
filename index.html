@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Knox IT</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="assets/style/indexcss.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
@@ -13,13 +14,20 @@
 		<br>
 		<header class="container">
 			<div class="row">
-				<div class="col-sm-3">
-					<img src="assets/resource/logo.jpg" class="rounded" alt="Responsive image" style= width:100px>
+				<div class="col-sm-2">
+					<a href="index.html"><img src="assets/resource/logo.jpg" class="rounded" alt="Responsive image" style= width:100px></a>
 				</div>
-				<div class="col-sm-9">
-					<ul class="nav nav-tabs">
+				<div class="col-sm-1">
+					<p></p>
+				</div>
+				
+				<div class="col-sm-9" id="header">
+					<ul class="nav nav-pills flex-column flex-sm-row justify-content-end">
 						<li class="nav-item">
-							<a class="nav-link active" href="index.html">Hem</a>
+							<a class="nav-link active" href="index.html"><strong>Hem</strong></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="assets/page/varatjanster.html">Våra tjänster</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="assets/page/omoss.html">Om oss</a>
@@ -34,24 +42,30 @@
 				</div>
 			</div>
 		</header>
-		<br><br>
+		<hr><br>
 		<main class="container" class="row" class="col-sm-12">
 			<div class="card">
 				<img class="card-img" src="assets/resource/Backgrounds.jpg" alt="Card image">
 				<div class="card-img-overlay">
-					<p class="card-text" style="color:white">Vi är Europas ledande aktör inom webbutveckling. Vi kombinerar strategi, design och teknik för att skapa digitala lösningar i världsklass.</p>
+					<p class="card-text" id="textMainPic" style="color:white">Vi är Europas ledande aktör inom webbutveckling.<br>Vi kombinerar strategi, design och teknik för att skapa digitala lösningar i världsklass.</p>
 				</div>
 			</div>
 			<br><br>
 			<article class="row" class="col-sm-12" id="text">Knox IT var den första webbyrån i Sverige som helt vände på den dåvarande trenden som var förutsägbar och allmänt utdaterad. Det har gett oss en bredare kunskap inom den ständigt utvecklande marknaden samt en djupare förståelse för vikten av ett gott samarbete med kundens önskemål i centrum.
+			Vårt huvudkontor är beläget i Stockholm City och vårt motto är:
+			Respekt, innovation, mångfald och full fart i varje fas. 
 			</article>
 		</main>	
 		<br><br><br><br>
-		<footer class="container" class="card-footer" id="footer"> 
-			<div class="row">
-				<div class="col-sm-6">Webbyrå Knox IT<br>info@knoxit.se<br>08-120 00 000
-				</div>
-				<div class="col-sm-6">Adress: Sveavägen 42<br>11433 Stockholm
+		<footer> 
+			<div class="card-footer " id="footer"> 
+				<div class="row">
+					<div class="col-sm-5">Webbyrå Knox IT<br>info@knoxit.se<br>08-120 00 000
+					</div>
+					<div class="col-sm-2"><p></p>
+					</div>
+					<div class="col-sm-5">Adress: Sveavägen 42<br>11433 Stockholm
+					</div>
 				</div>
 			</div>
 		</footer>
